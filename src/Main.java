@@ -66,6 +66,13 @@ public class Main {
                     frase= frase.toUpperCase();
                     System.out.println(frase);
                     break;
+                case 6:
+                    System.out.println("Introduce una frase o palabra");
+                    frase=sc.nextLine();
+                    frase=sc.nextLine();
+                    frase= frase.toLowerCase();
+                    System.out.println(frase);
+                    break;
             }
 
         }
