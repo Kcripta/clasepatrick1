@@ -43,7 +43,14 @@ public class Main {
                         longitud--;
                     }
                     break;
-
+                case 3:
+                    System.out.println("Introduce una frase o palabra");
+                    frase=sc.nextLine();
+                    frase=sc.nextLine();
+                    System.out.println("Introduce otra frase o palabra");
+                    frase2=sc.nextLine();
+                    System.out.println(frase+frase2);
+                    break;
             }
 
         }
