@@ -51,6 +51,14 @@ public class Main {
                     frase2=sc.nextLine();
                     System.out.println(frase+frase2);
                     break;
+                case 4:
+                    System.out.println("Introduce una frase o palabra");
+                    frase=sc.nextLine();
+                    frase=sc.nextLine();
+                    String buscar= "al";
+                    System.out.println("Se encontró en la posición "+frase.indexOf(buscar));
+
+                    break;
             }
 
         }
