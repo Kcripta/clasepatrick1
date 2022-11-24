@@ -59,6 +59,13 @@ public class Main {
                     System.out.println("Se encontró en la posición "+frase.indexOf(buscar));
 
                     break;
+                case 5:
+                    System.out.println("Introduce una frase o palabra");
+                    frase=sc.nextLine();
+                    frase=sc.nextLine();
+                    frase= frase.toUpperCase();
+                    System.out.println(frase);
+                    break;
             }
 
         }
