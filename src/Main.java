@@ -74,7 +74,7 @@ public class Main {
                     System.out.println(frase);
                     break;
             }
-
+            System.out.println();
         }
         while(!(opcion==7));
 
