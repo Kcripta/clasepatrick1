@@ -20,9 +20,20 @@ public class Main {
                     + "\n7. Salir"
                     + "\n------------------------------");
             opcion=sc.nextInt();
+            switch(opcion)
+            {
+                case 1:
+                    System.out.println("Introduce una frase o palabra");
+                    frase = sc.nextLine();
+                    frase = sc.nextLine();
 
+                    String fraseCambiado = frase.replace(" ", "");
+                    System.out.println(fraseCambiado);
+                    break;
+            }
 
         }
         while(!(opcion==7));
+
     }
 }
