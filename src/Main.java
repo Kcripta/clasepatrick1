@@ -30,6 +30,20 @@ public class Main {
                     String fraseCambiado = frase.replace(" ", "");
                     System.out.println(fraseCambiado);
                     break;
+                case 2:
+                    System.out.println("Introduce una frase o palabra");
+                    frase=sc.nextLine();
+                    frase=sc.nextLine();
+
+                    int longitud = frase.length()-1;
+                    for(;longitud>=0;)
+                    {
+                        letra= frase.charAt(longitud);
+                        System.out.print(letra);
+                        longitud--;
+                    }
+                    break;
+
             }
 
         }
